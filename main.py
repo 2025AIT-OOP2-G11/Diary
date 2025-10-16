@@ -1,7 +1,8 @@
 from diaries.DiarySample import DiarySample
+from diaries.YabeDiary import YabeDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), ]
+diaries = [DiarySample(), YabeDiary(), ]
 for d in diaries:
     print("---------------------------------")
     print(d.get_date())
