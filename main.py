@@ -5,7 +5,7 @@ from diaries.ShimodaDiary import ShimodaDiary
 from diaries.IkegamiDiary import IkegamiDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), YabeDiary(), YonekuraDiary(), ShimodaDiary(), IkegamiDiary(),　]
+diaries = [DiarySample(), YabeDiary(), YonekuraDiary(), ShimodaDiary(), IkegamiDiary(), ]
 for d in diaries:
     print("---------------------------------")
     print(d.get_date())
